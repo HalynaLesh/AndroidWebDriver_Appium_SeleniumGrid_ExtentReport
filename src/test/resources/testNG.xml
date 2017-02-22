@@ -11,10 +11,10 @@
 		<parameter name="browserName" value="Chrome" />
 		<classes>
 			<class name="eleks.com.pages_test.LoginPage_test" />
-			<!-- <class name="eleks.com.pages_test.MailBoxPage_test" />
+			<class name="eleks.com.pages_test.MailBoxPage_test" />
 			<class name="eleks.com.pages_test.CreateEmailPage_test" />
-			<class name="eleks.com.pages_test.SuccessSendMailPage_test" />  -->
-		<!-- 	<class name="eleks.com.pages_test.SentEmailPage_test" /> -->
+			<class name="eleks.com.pages_test.SuccessSendMailPage_test" />
+			<class name="eleks.com.pages_test.SentEmailPage_test" />
 		</classes>
 	</test>
 
@@ -24,10 +24,10 @@
 		<parameter name="browserName" value="Chrome" />
 			<classes>
 			<class name="eleks.com.pages_test.LoginPage_test" />
-		<!-- 	<class name="eleks.com.pages_test.MailBoxPage_test" />
+			<class name="eleks.com.pages_test.MailBoxPage_test" />
 			<class name="eleks.com.pages_test.CreateEmailPage_test" />
-			<class name="eleks.com.pages_test.SuccessSendMailPage_test" />  -->
-		<!-- 	<class name="eleks.com.pages_test.SentEmailPage_test" /> -->
+			<class name="eleks.com.pages_test.SuccessSendMailPage_test" />
+			<class name="eleks.com.pages_test.SentEmailPage_test" />
 		</classes>
 	</test>
 
