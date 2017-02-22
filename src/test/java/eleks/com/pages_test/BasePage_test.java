@@ -26,6 +26,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestResult;
+import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
@@ -66,7 +67,8 @@ public class BasePage_test {
 			Method method) throws Exception {
 
 		ExtentTest extent = ExtentTestManager.startTest(method.getName(), "Automation Tests for I.UA website").assignCategory(device);
-					    
+		Reporter.log("Start test: " + method.getName() + " on " + device);	 
+		System.out.println("Start test: " + method.getName() + " on " + device);
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME, device);
 		cap.setCapability(MobileCapabilityType.BROWSER_NAME, browserName);

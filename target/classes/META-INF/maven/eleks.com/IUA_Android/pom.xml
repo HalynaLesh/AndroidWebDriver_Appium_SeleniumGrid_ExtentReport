@@ -81,8 +81,8 @@
 						<suiteXmlFiles>
 							<suiteXmlFile>src/test/resources/testNG.xml</suiteXmlFile>
 						</suiteXmlFiles>
-						<!-- <parallel>tests</parallel>
-						<threadCount>5</threadCount> -->
+						<parallel>tests</parallel>
+						<threadCount>5</threadCount>
 					</configuration>
 				</plugin>
 

@@ -8,12 +8,10 @@
     <classes>
       <class name="eleks.com.pages_test.LoginPage_test">
         <methods>
+          <include name="positive_loginAs_test"/>
           <include name="setUp"/>
-          <include name="clearCookies"/>
           <include name="setUp"/>
-          <include name="clearCookies"/>
           <include name="negative_loginAs_test"/>
-          <include name="close_report"/>
         </methods>
       </class> <!-- eleks.com.pages_test.LoginPage_test -->
     </classes>
@@ -25,12 +23,10 @@
     <classes>
       <class name="eleks.com.pages_test.LoginPage_test">
         <methods>
+          <include name="positive_loginAs_test"/>
           <include name="setUp"/>
-          <include name="clearCookies"/>
           <include name="setUp"/>
-          <include name="clearCookies"/>
           <include name="negative_loginAs_test"/>
-          <include name="close_report"/>
         </methods>
       </class> <!-- eleks.com.pages_test.LoginPage_test -->
     </classes>
