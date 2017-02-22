@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <test name="emulator-5554(failed)" parallel="tests">
+    <parameter name="port" value="4040"/>
+    <parameter name="browserName" value="Chrome"/>
+    <parameter name="device" value="emulator-5554"/>
+    <classes>
+      <class name="eleks.com.pages_test.LoginPage_test">
+        <methods>
+          <include name="setUp"/>
+          <include name="clearCookies"/>
+          <include name="setUp"/>
+          <include name="clearCookies"/>
+          <include name="negative_loginAs_test"/>
+          <include name="close_report"/>
+        </methods>
+      </class> <!-- eleks.com.pages_test.LoginPage_test -->
+    </classes>
+  </test> <!-- emulator-5554(failed) -->
+  <test name="emulator-5556(failed)" parallel="tests">
+    <parameter name="port" value="5050"/>
+    <parameter name="browserName" value="Chrome"/>
+    <parameter name="device" value="emulator-5556"/>
+    <classes>
+      <class name="eleks.com.pages_test.LoginPage_test">
+        <methods>
+          <include name="setUp"/>
+          <include name="clearCookies"/>
+          <include name="setUp"/>
+          <include name="clearCookies"/>
+          <include name="negative_loginAs_test"/>
+          <include name="close_report"/>
+        </methods>
+      </class> <!-- eleks.com.pages_test.LoginPage_test -->
+    </classes>
+  </test> <!-- emulator-5556(failed) -->
+</suite> <!-- Failed suite [Suite] -->
