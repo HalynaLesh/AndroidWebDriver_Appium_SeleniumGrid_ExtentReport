@@ -19,7 +19,7 @@ public class LoginPage_test extends BasePage_test{
 	
 	 MailBoxPage mailBoxPage;
 	
-	@Test (priority = 0)
+	/*@Test (priority = 0)
 	public void positive_loginAs_test() throws ClassNotFoundException, SQLException{
 		ExtentTest test = ExtentTestManager.getTest();	
 		loginPage.open();
@@ -32,7 +32,7 @@ public class LoginPage_test extends BasePage_test{
 		test.log(LogStatus.INFO, "Verifying is MailBox page opened.");
 		mailBoxPage.logout();
 		test.log(LogStatus.INFO, "Logout.");
-	}
+	}*/
 	
 	@Test(priority = 1)
 	public void negative_loginAs_test() throws ClassNotFoundException, SQLException{
